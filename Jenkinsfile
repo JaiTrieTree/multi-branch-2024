@@ -8,7 +8,7 @@ pipeline{
         }
 	stage('Validate stage'){
             steps{
-                echo "this is Validate stage"
+                echo "this is Validate stage completed"
             }
         }
         stage('Test stage'){
