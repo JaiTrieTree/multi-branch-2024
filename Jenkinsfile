@@ -6,6 +6,11 @@ pipeline{
                 echo "this is build stage"
             }
         }
+	stage('Validate stage'){
+            steps{
+                echo "this is Validate stage completed"
+            }
+        }
         stage('Test stage'){
             steps{
                 echo "this is test stage"
